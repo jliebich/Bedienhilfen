@@ -2,9 +2,9 @@
 
 Im Terminal in das Verzeichnis wechseln und 
 
-  python -m venv venv
+    python -m venv venv
 
-  venv\Scripts\activate
+    venv\Scripts\activate
 
 ausführen
 
