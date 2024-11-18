@@ -47,7 +47,11 @@ Requirements-Datei erzeugen:
     venv\Scripts\activate  # For Windows
     pip freeze > requirements.txt
 
-
+Altes Projekt umbenennen (z.B. ...old) und kopieren
+Dort eine neue Vituelle Umgebung anlegen (mit der neune Python-Version)
+Anhand der Requirementsdatei des alten Projekts mit pip install die Abhängigkeiten installieren.
+Am besten von unten anfangen und nur eine Abhängigkeit installieren
+Dann eine requirements.txt im neuen Projekt anlegen und mit der alten vergleichen - meist ist dann schon vieles weite installiert.
 
 
 
